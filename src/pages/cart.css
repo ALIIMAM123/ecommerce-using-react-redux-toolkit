@@ -1,0 +1,83 @@
+.cartWrapper{
+    background-color: rgb(229, 247, 245);
+    width:100%;
+}
+.cart2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    width:90%;
+    margin: auto;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-bottom: 15px; 
+
+}
+.my-products{
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.product-image2{
+    height: 140px;
+    width:140px;
+    margin-top: 34px;
+}
+
+.title2{
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    width:135px;
+}
+.price2{
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.btn{
+    font-size:15px;
+    font-weight:bold;
+}
+
+@media screen and (max-width: 576px){
+    .cart2{
+        width: 80%;
+        
+    }
+    
+    .cartWrapper{
+        /* padding:40px; */
+        /* width: 100%; */
+    }
+    
+    .product-image2{
+        height: 100px; 
+        width: 100px;
+         margin-top: 34px;
+    }
+    .price2{
+        margin-right: 15px;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        font-size:14px;
+    }
+    .title2{
+        text-align: center;
+        margin-left:15px;
+        font-size: 14px;
+    }
+    .my-products{
+        text-align: center;
+        font-size: 18px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+}
